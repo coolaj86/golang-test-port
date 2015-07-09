@@ -5,13 +5,17 @@ Tests wether or not a port is already in use by another application. Written in 
 
 See https://coolaj86.com/articles/how-to-test-if-a-port-is-available-in-go/
 
-Install & Usage
-===============
+Install
+=======
 
 ```bash
 go get github.com/coolaj86/golang-test-port
+
 go build -o $GOPATH/bin/test-port github.com/coolaj86/golang-test-port
 ```
+
+Usage
+=====
 
 Test an open port
 
